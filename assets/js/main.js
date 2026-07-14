@@ -96,14 +96,14 @@ const CATEGORIES_BY_REGION={
       {title:"Lamu Heritage Tour",destination:"Lamu",category:"Cultural Experiences",duration:"4 Days",highlights:["UNESCO stone town","Swahili cuisine","Dhow building"],price:"$1,900",img:"assets/dest-diani.jpg"}
     ],
     "Luxury Safaris":[
-      {title:"Maasai Mara Luxury Safari",destination:"Maasai Mara",category:"Luxury Safaris",duration:"6 Days",highlights:["Private guide","Conservancy stays","Balloon safari"],price:"$5,200",img:"assets/lioness.jpg"},
-      {title:"Amboseli Luxury Retreat",destination:"Amboseli",category:"Luxury Safaris",duration:"4 Days",highlights:["Kilimanjaro views","Tortilis Camp","Sundowners"],price:"$3,900",img:"assets/hill.jpg"},
+      {title:"Maasai Mara Luxury Safari",destination:"Maasai Mara",category:"Luxury Safaris",duration:"6 Days",highlights:["Private guide","Conservancy stays","Balloon safari"],price:"$5,200",img:"assets/sunrise.jpg"},
+      {title:"Amboseli Luxury Retreat",destination:"Amboseli",category:"Luxury Safaris",duration:"4 Days",highlights:["Kilimanjaro views","Tortilis Camp","Sundowners"],price:"$3,900",img:"assets/kilimanjaro1.jpg"},
       {title:"Lewa Conservancy Experience",destination:"Lewa",category:"Luxury Safaris",duration:"5 Days",highlights:["Black rhino tracking","Private conservancy","Horseback safari"],price:"$5,800",img:"assets/ostrich.jpg"}
     ]
   },
   tanzania:{
     "Wildlife Safaris":[
-      {title:"Serengeti Migration Safari",destination:"Serengeti",category:"Wildlife Safaris",duration:"6 Days",highlights:["Great Migration","Big Five","Luxury tented camp"],price:"$4,800",img:"assets/tsavo1.jpg"},
+      {title:"Serengeti Migration Safari",destination:"Serengeti",category:"Wildlife Safaris",duration:"6 Days",highlights:["Great Migration","Big Five","Luxury tented camp"],price:"$4,800",img:"assets/crocs.jpg"},
       {title:"Ngorongoro Crater Explorer",destination:"Ngorongoro",category:"Wildlife Safaris",duration:"4 Days",highlights:["Crater floor drive","Black rhino","25,000 animals"],price:"$3,600",img:"assets/dest-amboseli.jpg"},
       {title:"Tarangire Elephant Safari",destination:"Tarangire",category:"Wildlife Safaris",duration:"3 Days",highlights:["Elephant herds","Baobab landscape","Tree-climbing lions"],price:"$2,200",img:"assets/elephants.jpg"},
       {title:"Lake Manyara Tree-top Safari",destination:"Lake Manyara",category:"Wildlife Safaris",duration:"2 Days",highlights:["Tree-climbing lions","Flamingo flocks","Canopy walkway"],price:"$1,600",img:"assets/dest-nakuru.jpg"},
@@ -139,7 +139,7 @@ const CATEGORIES_BY_REGION={
     "Wildlife Safaris":[
       {title:"Maasai Mara & Serengeti Migration Safari",destination:"Mara & Serengeti",category:"Wildlife Safaris",duration:"10 Days",highlights:["Cross-border migration","Big Five","River crossings both sides"],price:"$7,600",img:"assets/lioness2.jpg"},
       {title:"Kenya & Tanzania Big Five Safari",destination:"Amboseli — Ngorongoro — Serengeti",category:"Wildlife Safaris",duration:"9 Days",highlights:["Amboseli elephants","Ngorongoro Crater","Serengeti plains"],price:"$6,800",img:"assets/buffalo.jpg"},
-      {title:"Amboseli & Ngorongoro Explorer",destination:"Amboseli & Ngorongoro",category:"Wildlife Safaris",duration:"7 Days",highlights:["Kilimanjaro views","Crater descent","Cross-border transfer"],price:"$5,200",img:"assets/giraffe.jpg"}
+      {title:"Amboseli & Ngorongoro Explorer",destination:"Amboseli & Ngorongoro",category:"Wildlife Safaris",duration:"7 Days",highlights:["Kilimanjaro views","Crater descent","Cross-border transfer"],price:"$5,200",img:"assets/kilimanjaro1.jpg"}
     ],
     "Beach Escapes":[
       {title:"Diani & Zanzibar Escape",destination:"Diani — Zanzibar",category:"Beach Escapes",duration:"10 Days",highlights:["Kenya coast","Zanzibar spice","Two Indian Ocean gems"],price:"$4,800",img:"assets/dest-diani.jpg"},
@@ -154,7 +154,7 @@ const CATEGORIES_BY_REGION={
       {title:"Maasai Heritage Journey",destination:"Kenya & Tanzania Maasailand",category:"Cultural Experiences",duration:"6 Days",highlights:["Kenya Maasai boma","Tanzania Maasai village","Cross-border culture"],price:"$3,200",img:"assets/exp-culture.jpg"}
     ],
     "Luxury Safaris":[
-      {title:"Ultimate East Africa Luxury Safari",destination:"Mara — Serengeti — Ngorongoro — Zanzibar",category:"Luxury Safaris",duration:"14 Days",highlights:["Fly-in transfers","5-star lodges","Private guide throughout"],price:"$12,500",img:"assets/mara1.jpg"},
+      {title:"Ultimate East Africa Luxury Safari",destination:"Mara — Serengeti — Ngorongoro — Zanzibar",category:"Luxury Safaris",duration:"14 Days",highlights:["Fly-in transfers","5-star lodges","Private guide throughout"],price:"$12,500",img:"assets/monkey1.jpg"},
       {title:"Kenya, Tanzania & Zanzibar Premium",destination:"Amboseli — Serengeti — Zanzibar",category:"Luxury Safaris",duration:"12 Days",highlights:["Amboseli luxury lodge","Serengeti mobile camp","Zanzibar beach villa"],price:"$10,200",img:"assets/dest-diani.jpg"}
     ]
   }
