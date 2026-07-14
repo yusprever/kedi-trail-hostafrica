@@ -180,9 +180,9 @@ const REASONS=[
   {icon:'<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 9.8 6.9C15.5 4.9 17 3.5 17 3.5s1.5 7 4.8 8.8a4.9 4.9 0 0 1-2.6 8.5c-2.1.3-4-.5-5.2-1.8"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg>',title:"Conservation First",copy:"Every journey contributes to conservancies and community schools."}
 ];
 const TESTIMONIALS=[
-  {name:"Amelia & Jonas",from:"Copenhagen, Denmark",quote:"The most thoughtfully designed trip of our lives. Every detail — from the private balloon to the beach villa — was flawless.",rating:5},
-  {name:"The Okonkwo Family",from:"London, UK",quote:"Our kids came home talking about their guide as if he were family. That says everything about Kedi Trail Adventures.",rating:5},
-  {name:"Priya M.",from:"Mumbai, India",quote:"Solo, safe, spectacular. I felt looked after from the moment I landed to the moment I flew home.",rating:5}
+  {name:"Venerandah M",from:"Copenhagen, Denmark",quote:"My experience with Kedi Trail Adventures was nothing short of amazing! If you're planning your next gateaway, don't think twice, go for Kedi Trail Adventures. You'll love every moment.",rating:5},
+  {name:"Agnes & Family",from:"London, UK",quote:"The best part of our trip to Meru National Park was a surprising walking safari. It was amazing to see all animals from the ground. If you want a fun adventure, definitely contact Kedi Trail.",rating:5},
+  {name:"Priya M.",from:"Mumbai, India",quote:"Solo, safe, spectacular. I felt looked after from the moment I landed to the moment I flew home. Highly recommend Kedi Trail Adventures.",rating:5}
 ];
 
 /* ===== STATE ===== */
