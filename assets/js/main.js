@@ -27,7 +27,7 @@ const DEST_ITINERARIES={
   "Diani Beach":[
     {title:"3-Day Beach Escape",duration:"3 Days",description:"Unwind on powder-white sand with the warm Indian Ocean at your doorstep.",highlights:["White sand beaches","Ocean activities","Luxury resort stay"],price:"On request",img:"assets/dest-diani.jpg"},
     {title:"5-Day Coastal Adventure",duration:"5 Days",description:"Reefs, marine parks and dolphins for those who like their beach days active.",highlights:["Snorkelling","Marine park excursions","Dolphin experiences"],price:"On request",img:"assets/dest-diani.jpg"},
-    {title:"7-Day Luxury Coastal Retreat",duration:"7 Days",description:"The ultimate coastal indulgence — private beach, spa days and sunset sails.",highlights:["Private beach experiences","Spa treatments","Sunset dhow cruises"],price:"On request",img:"assets/dest-diani.jpg"}
+    {title:"7-Day Luxury Coastal Retreat",duration:"7 Days",description:"The ultimate coastal indulgence — private beach, spa days and sunset sails.",highlights:["Private beach experiences","Spa treatments","Sunset dhow cruises"],price:"On request",img:"assets/taita.jpg"}
   ],
   "Mount Kenya":[
     {title:"3-Day Nature Experience",duration:"3 Days",description:"Forest trails and scenic viewpoints at the foot of Africa's second-highest peak.",highlights:["Forest trails","Scenic viewpoints","Wildlife encounters"],price:"On request",img:"assets/dest-mtkenya.jpg"},
@@ -51,12 +51,12 @@ const TOURS_BY_REGION={
   kenya:[
     {title:"Mara & Serengeti Signature",duration:"8 Days",price:"$4,850",category:"Luxury Safaris",destination:"Maasai Mara",highlights:["Private guide","Mara conservancy","Balloon safari"],img:"assets/lioness2.jpg"},
     {title:"Elephants of Amboseli",duration:"5 Days",price:"$2,690",category:"Wildlife Safaris",destination:"Amboseli",highlights:["Kilimanjaro vistas","Tortilis Camp","Cultural visit"],img:"assets/elephants.jpg"},
-    {title:"Bush & Beach Honeymoon",duration:"10 Days",price:"$6,120",category:"Beach Escapes",destination:"Diani Beach",highlights:["Mara + Diani","Private plunge pool","Dhow sunset"],img:"assets/dest-diani.jpg"},
+    {title:"Bush & Beach Honeymoon",duration:"10 Days",price:"$6,120",category:"Beach Escapes",destination:"Diani Beach",highlights:["Mara + Diani","Private plunge pool","Dhow sunset"],img:"assets/deer.jpg"},
     {title:"Northern Frontier Expedition",duration:"7 Days",price:"$3,940",category:"Wildlife Safaris",destination:"Samburu",highlights:["Samburu & Laikipia","Rhino tracking","Fly-in camps"],img:"assets/grass1.jpg"}
   ],
   tanzania:[
     {title:"Serengeti Migration Safari",duration:"6 Days",price:"$4,800",category:"Wildlife Safaris",destination:"Serengeti",highlights:["Great Migration","Big Five","Luxury tented camp"],img:"assets/zebra.jpg"},
-    {title:"Ngorongoro Crater Experience",duration:"4 Days",price:"$3,600",category:"Wildlife Safaris",destination:"Ngorongoro",highlights:["Crater floor drive","Rhino sighting","Maasai boma"],img:"assets/dest-amboseli.jpg"},
+    {title:"Ngorongoro Crater Experience",duration:"4 Days",price:"$3,600",category:"Wildlife Safaris",destination:"Ngorongoro",highlights:["Crater floor drive","Rhino sighting","Maasai boma"],img:"assets/giraffes.jpg"},
     {title:"Zanzibar Beach & Spice Tour",duration:"6 Days",price:"$2,900",category:"Beach Escapes",destination:"Zanzibar",highlights:["Stone Town","Spice tour","White sand beaches"],img:"assets/dest-diani.jpg"},
     {title:"Kilimanjaro Climb — Machame",duration:"8 Days",price:"$3,400",category:"Mountain Adventures",destination:"Mount Kilimanjaro",highlights:["Machame route","Summit night","Uhuru Peak"],img:"assets/dest-mtkenya.jpg"}
   ],
@@ -64,7 +64,7 @@ const TOURS_BY_REGION={
     {title:"Kenya & Tanzania Grand Safari",duration:"12 Days",price:"$8,900",category:"Wildlife Safaris",destination:"Mara & Serengeti",highlights:["Mara conservancy","Serengeti crossings","Ngorongoro Crater"],img:"assets/lioness.jpg"},
     {title:"Migration Trail: Mara to Serengeti",duration:"10 Days",price:"$7,600",category:"Wildlife Safaris",destination:"Mara — Serengeti",highlights:["Follow the herds","Cross-border flight","Luxury lodges"],img:"assets/zebra.jpg"},
     {title:"Ultimate East Africa: Bush, Peak & Beach",duration:"14 Days",price:"$10,200",category:"Luxury Safaris",destination:"Kenya & Tanzania",highlights:["Amboseli","Ngorongoro","Serengeti","Zanzibar"],img:"assets/grass.jpg"},
-    {title:"East Africa Honeymoon Escape",duration:"9 Days",price:"$8,400",category:"Luxury Safaris",destination:"Mara — Crater — Zanzibar",highlights:["Private drives","Crater sundowner","Beach villa"],img:"assets/exp-balloon.jpg"}
+    {title:"East Africa Honeymoon Escape",duration:"9 Days",price:"$8,400",category:"Luxury Safaris",destination:"Mara — Crater — Zanzibar",highlights:["Private drives","Crater sundowner","Beach villa"],img:"assets/sunrise.jpg"}
   ]
 };
 
