@@ -5,12 +5,12 @@ function regJourney(j){const id=_reg.length;_reg.push(j);return id;}
 function getJourney(id){return _reg[id];}
 
 const DESTINATIONS=[
-  {name:"Maasai Mara",tag:"Big Five",img:"assets/dest-mara.jpg",season:"Jul – Oct",note:"Great Migration heartland"},
-  {name:"Amboseli",tag:"Elephants",img:"assets/dest-amboseli.jpg",season:"Jun – Oct",note:"Kilimanjaro views"},
+  {name:"Maasai Mara",tag:"Big Five",img:"assets/pride.jpg",season:"Jul – Oct",note:"Great Migration heartland"},
+  {name:"Amboseli",tag:"Elephants",img:"assets/elephant.jpg",season:"Jun – Oct",note:"Kilimanjaro views"},
   {name:"Diani Beach",tag:"Coast",img:"assets/dest-diani.jpg",season:"Dec – Mar",note:"Turquoise Indian Ocean"},
   {name:"Mount Kenya",tag:"Summit",img:"assets/dest-mtkenya.jpg",season:"Jan – Feb",note:"Africa's second peak"},
   {name:"Lake Nakuru",tag:"Birdlife",img:"assets/dest-nakuru.jpg",season:"All year",note:"Flamingo mirror lakes"},
-  {name:"Samburu",tag:"Rare game",img:"assets/dest-samburu.jpg",season:"Jun – Oct",note:"The Northern Five"}
+  {name:"Samburu",tag:"Rare game",img:"assets/giraffes.jpg",season:"Jun – Oct",note:"The Northern Five"}
 ];
 
 const DEST_ITINERARIES={
@@ -41,7 +41,7 @@ const DEST_ITINERARIES={
   ],
   "Samburu":[
     {title:"3-Day Samburu Discovery",duration:"3 Days",description:"Meet the rare northern species and the proud Samburu people of the frontier.",highlights:["Unique northern wildlife","Samburu culture","Scenic landscapes"],price:"On request",img:"assets/giraffe.jpg"},
-    {title:"5-Day Northern Kenya Adventure",duration:"5 Days",description:"A deeper immersion into the Samburu ecosystem and its rare wildlife.",highlights:["Samburu ecosystem","Rare wildlife species","Cultural immersion"],price:"On request",img:"assets/dest-giraffe1.jpg"},
+    {title:"5-Day Northern Kenya Adventure",duration:"5 Days",description:"A deeper immersion into the Samburu ecosystem and its rare wildlife.",highlights:["Samburu ecosystem","Rare wildlife species","Cultural immersion"],price:"On request",img:"assets/giraffe1.jpg"},
     {title:"Luxury Samburu Safari",duration:"4 Days",description:"Exclusive conservancies, luxury camps and guided encounters off the beaten track.",highlights:["Exclusive conservancies","Luxury accommodation","Guided wildlife encounters"],price:"On request",img:"assets/mara.jpg"}
   ]
 };
