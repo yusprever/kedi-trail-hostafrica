@@ -65,7 +65,7 @@ input,textarea,select{font:inherit}
 .nav-header:not(.scrolled){padding-top:1.25rem;padding-bottom:1.25rem} */
 /* ===== NAVIGATION ===== */
 .nav-header{
-  position:fixed;
+  position:absolute;
   top:1.75rem;
   inset-inline:5.25rem;
   z-index:50;
