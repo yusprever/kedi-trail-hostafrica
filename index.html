@@ -44,9 +44,9 @@
     <div class="show-lg" style="align-items:center;gap:0.75rem">
       <a href="#contact" class="btn-primary" style="font-size:.875rem">Plan Your Safari <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
     </div>
-    <button id="menuBtn" aria-label="Open menu" class="hide-lg glass" style="width:2.5rem;height:2.5rem;border-radius:999px;display:grid;place-items:center;color:white" onclick="openMobileMenu()">
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
-    </button>
+    <button id="menuBtn" aria-label="Open menu" class="hide-lg" style="width:2.5rem;height:2.5rem;border-radius:999px;display:grid;place-items:center;color:var(--charcoal)" onclick="openMobileMenu()">
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+</button>
   </div>
 </header>
 
@@ -54,14 +54,11 @@
 <div id="mobileMenu" style="display:none;position:fixed;inset:0;z-index:60;background:var(--forest-deep);color:var(--ivory)">
   <div class="container-x" style="display:flex;align-items:center;justify-content:space-between;padding-top:1.25rem;padding-bottom:1.25rem">
     <span style="display:flex;align-items:center;gap:0.5rem">
-      <span style="display:inline-block;width:2.25rem;height:2.25rem;border-radius:0.5rem;background:rgba(255,255,255,.95);padding:0.25rem">
-        <svg viewBox="0 0 40 40" width="100%" height="100%"><rect x="2" y="2" width="36" height="36" rx="6" fill="none" stroke="#1FA34A" stroke-width="2"/><text x="20" y="26" text-anchor="middle" fill="#1FA34A" font-size="15" font-weight="bold" font-family="serif">K</text></svg>
-      </span>
-      <span class="font-serif" style="font-size:1.25rem">Kedi Trail Adventures</span>
+      <img src="assets/logo.png" alt="Kedi Trail Adventures logo" style="width:10rem;height:3rem;object-fit:contain;flex-shrink:0">
     </span>
-    <button aria-label="Close menu" onclick="closeMobileMenu()" style="width:2.5rem;height:2.5rem;border-radius:999px;border:1px solid rgba(255,255,255,.2);display:grid;place-items:center">
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
-    </button>
+    <button id="menuBtn" aria-label="Open menu" class="hide-lg" style="width:2.5rem;height:2.5rem;border-radius:999px;display:grid;place-items:center;color:var(--charcoal);background:rgba(0,0,0,.06)" onclick="openMobileMenu()">
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+</button>\
   </div>
   <nav class="container-x" style="margin-top:2rem;display:flex;flex-direction:column;gap:1.5rem">
     <a href="#destinations" onclick="closeMobileMenu()" class="font-serif" style="white-space:nowrap;border-bottom:1px solid rgba(255,255,255,.1);padding-bottom:1rem;font-size:clamp(1.5rem,7vw,2rem);line-height:1.1">Destinations</a>
