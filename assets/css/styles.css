@@ -201,6 +201,13 @@ body.locked{overflow:hidden}
   .nav-header{padding-top:0.875rem!important;padding-bottom:0.875rem!important}
   .nav-header .container-x{min-height:3.25rem}
 }
+/* ===== HERO: DESKTOP VS MOBILE ===== */
+.hero-desktop-only{display:none}
+.hero-mobile-only{display:block}
+@media(min-width:1024px){
+  .hero-desktop-only{display:block}
+  .hero-mobile-only{display:none}
+}
 
 /* ===== ENHANCED CTA LINKS ===== */
 .cta-explore{display:inline-flex;align-items:center;gap:0.5rem;font-size:.875rem;font-weight:600;color:var(--gold);padding:0.5rem 1.25rem;border-radius:999px;border:1.5px solid color-mix(in oklab,var(--gold) 50%,transparent);background:color-mix(in oklab,var(--gold) 8%,transparent);transition:all .3s ease;cursor:pointer}
